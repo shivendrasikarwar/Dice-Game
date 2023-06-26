@@ -1,0 +1,236 @@
+html,body{
+
+
+text-align: center;
+font-family: HK Grotesk,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+width: 100%;
+height: 100%;
+background: linear-gradient(to right,#c2e59c,#64b3f4);
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+#resetBtn{
+
+display:none;
+
+
+
+}
+
+#player1, #player1Dice{
+
+display: inline-block;
+
+
+}
+
+#player2, #player{
+
+    display: inline-block;
+    
+    
+    }
+
+
+#player1Dice, #player2Dice{
+
+
+    height:80px;
+    width: 80px;
+    background-color: darksalmon;
+    margin: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+
+
+}
+
+button{
+
+border: 0;
+padding: 15px 30px 15px 30px;
+background-color:salmon;
+border-radius: 3px;
+color: white;
+margin: 0 auto;
+
+
+}
+
+.container{
+    position: relative;
+    width: 75%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding-top:20px ;
+   
+    height: 70%;
+    box-shadow: -20px 20px 50px   rgb(0, 0, 0,0.5);
+    border-radius: 2px;
+   
+
+
+}
+
+.active{
+
+box-shadow: -5px 5px 6px rgb(0, 0, 0,0.3);
+
+
+}
+
+#instructions{
+
+margin-top: 50px;
+
+
+
+}
+
+
+#instructions{
+
+    margin-top: 50px;
+    cursor: pointer;
+    
+    
+    
+    }
+
+#hover_instruct{
+
+    display:none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* //background-color: rgba(0, 0, 0,0.5); */
+
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+   
+
+
+
+
+
+    }
+
+#details{
+
+    position: relative;
+    height: 80%;
+    width: 80%;
+    background-color: rgba(255, 255, 255,0.9);
+    margin: 0 auto;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+    border-radius: 10px;
+    padding: 10px;
+
+
+
+}
+
+
+#close:hover{
+
+
+    background-color: red;
+
+
+
+
+}
+
+#close{
+
+   height: 25px;
+   width: 25px;
+   padding:10px;
+
+
+
+
+}
+
+#details p{
+
+
+
+margin-top: 0px;
+margin-left: 40px;
+margin-bottom: 0px;
+
+}
+
+#closebtn{
+
+    
+        font-size: 1rem;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: larger;
+        margin: 20px;
+        
+
+
+
+}
+
+#closebtn:hover{
+
+
+
+    box-shadow: -10px 10px 50px rgba(127, 255, 212,0.8);
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .container{
+
+        width: 90%;
+        height: 90%;
+
+
+    }
+  }
+
+
+h1{
+
+margin-top: 0px;
+
+
+}
